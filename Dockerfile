@@ -4,7 +4,6 @@ WORKDIR /app
 
 COPY app.py .
 COPY static/ static/
-COPY templates/ templates/
 
 RUN pip install flask
 
